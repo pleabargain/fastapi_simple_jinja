@@ -1,0 +1,22 @@
+<!-- create a basic form that uses the style_simple.css -->
+<!-- template -->
+<html>
+<head>
+    <title>Basic Form</title>
+    <link href="{{ url_for('static', path='/style_simple.css') }}" rel="stylesheet">
+</head>
+<body>
+    <h1>Basic Form</h1>
+    <form action="/basic-form" method="post">
+        <!-- <label for="name">Name:</label>
+        <input type="text" name="name" id="name"> -->
+        <label for="email">Email:</label>
+        <input type="email" name="email" id="email">
+        <label for="password">Password:</label>
+        <input type="password" name="password" id="password">
+        <input type="submit" value="Submit">
+    </form>
+
+</body>
+
+</html>
