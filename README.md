@@ -10,6 +10,10 @@ https://github.com/pleabargain/fastapi_simple_jinja
 
 * http://127.0.0.1:8000/basic
 
+# issue
+* https://app.diagrams.net/?src=about#G14VeSCuQOn5kZkIoHJReGhElBJ9D8sAJi
+Not getting the next screen as per video: https://www.youtube.com/watch?v=L4WBFRQB7Lk
+
 
 # requires
 
@@ -20,10 +24,14 @@ https://github.com/pleabargain/fastapi_simple_jinja
 # TODO
 * Create a template for a 
     * simple table
-        * new page when too many rows of data returned
+        * if too many rows then paginate
     * simple search
+        * global search (walk the whole db)
+        * search by model names
     * add data to db (session)
-    * simple form
+    * simple form to take in user email and password
+        * should check against existing user db! :)
+    * simple form to register a user (good exercise)
 
 # errors
 Trying to get fastapi to restart, I got an error
