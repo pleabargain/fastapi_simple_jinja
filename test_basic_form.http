@@ -1,0 +1,5 @@
+curl -X 'POST' \
+  'http://127.0.0.1:8000/basic' \
+  -H 'accept: text/html' \
+  -H 'Content-Type: application/x-www-form-urlencoded' \
+  -d 'email=d&password=3'

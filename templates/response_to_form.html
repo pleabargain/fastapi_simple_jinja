@@ -1,0 +1,14 @@
+<!-- response form tell the user that they were successful -->
+<html>
+<head>
+    <title>Response to Form</title>
+    <link href="{{ url_for('static', path='/style_simple.css') }}" rel="stylesheet">
+</head>
+<body>
+    <h1>Response to Form</h1>
+    <p>Thank you for submitting the form.</p>
+    <!-- <p>Your name is {{ name }}.</p> -->
+    <p>Your email is {{ email }}.</p>
+    <p>Your password is {{ password }}.</p>
+</body>
+</html>

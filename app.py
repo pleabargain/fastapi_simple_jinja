@@ -29,9 +29,8 @@ async def get_basic_form(request: Request):
 @app.post("/basic", response_class=HTMLResponse)
 async def post_basic_form(request: Request , email: str = Form(...), password: str = Form(...)):
     # print(email, password)
-    
     print(f'Email: {email} Password: {password}')
-    return templates.TemplateResponse("basic_form.html", {"request": request})
+    return templates.TemplateResponse("respsonse_to_form.html", {"request": request})
 
 
 
