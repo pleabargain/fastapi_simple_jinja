@@ -1,5 +1,8 @@
 # fastapi_simple_jinja
-inspired by https://www.youtube.com/watch?v=IxXtDOI9RUo
+* inspired by https://www.youtube.com/watch?v=IxXtDOI9RUo
+
+Basically I took this code
+* https://github.com/ianrufus/youtube/tree/main/fastapi-forms-file-upload
 
 # URL for this repo
 https://github.com/pleabargain/fastapi_simple_jinja
@@ -25,6 +28,8 @@ Not getting the next screen as per video: https://www.youtube.com/watch?v=L4WBFR
 * python-multipart == 0.0.5
 
 # TODO
+* load a JSON file and render ALL conents to HTML
+    * if too many rows then paginate
 * Create a template for a 
     * simple table
         * if too many rows then paginate
