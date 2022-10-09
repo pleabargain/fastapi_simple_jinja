@@ -5,10 +5,13 @@ inspired by https://www.youtube.com/watch?v=IxXtDOI9RUo
 https://github.com/pleabargain/fastapi_simple_jinja
 
 # URLs in the app
+* http://127.0.0.1:8000/awesome
+* http://127.0.0.1:8000/basic
+
+## documentation
 * http://127.0.0.1:8000/docs#/default/post_basic_form_basic_post
 * http://127.0.0.1:8000/docs
 
-* http://127.0.0.1:8000/basic
 
 # issue
 * https://app.diagrams.net/?src=about#G14VeSCuQOn5kZkIoHJReGhElBJ9D8sAJi

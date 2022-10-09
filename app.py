@@ -3,6 +3,8 @@ from fastapi import FastAPI, Request, Form, Depends, UploadFile, File
 from fastapi.responses import HTMLResponse
 from fastapi.staticfiles import StaticFiles
 from fastapi.templating import Jinja2Templates
+from schemas import AwesomeForm
+
 # https://pypi.org/project/Jinja2/
 
 
@@ -34,7 +36,7 @@ async def post_basic_form(request: Request, username: str = Form(...), password:
 
 @app.get('/awesome', response_class=HTMLResponse)
 def get_form(request: Request):
-    return templates.TemplateResponse("awesome-form.html", {"request": request})
+    return templates.TemplateResponse("awesome_form.html", {"request": request})
 
 @app.post('/awesome', response_class=HTMLResponse)
 def post_form(request: Request, form_data: AwesomeForm = Depends(AwesomeForm.as_form)):
